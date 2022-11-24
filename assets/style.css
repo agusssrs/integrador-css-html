@@ -27,6 +27,7 @@
     padding: 0rem 0.5rem 0rem 1rem;
     position: sticky;
     top: 0;
+    z-index: 1
 }
 
 .navbar,.navbar-list{
@@ -88,13 +89,14 @@ main{
     max-width: 1200px;
     justify-content:center;
     align-items:center;
+    flex-wrap: wrap;
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 85%;
+    max-width: 50%;
 }
 
 .hero-text h1{
@@ -124,7 +126,7 @@ main{
 }
 
 .hero-card{
-    width: 800px;
+    width: 40%;
     display: flex;
     justify-content: center;
 }
@@ -172,6 +174,12 @@ main{
     padding: 20px;
     gap: 15px;
     background-color: #16222A;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.le-beau:hover{
+    transform: scale(1.1)
 }
 
 .le-beau p{
@@ -206,6 +214,12 @@ main{
     padding: 20px;
     gap: 15px;
     background-color: #16222A;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.azzaro:hover{
+    transform: scale(1.1)
 }
 
 .azzaro p{
@@ -240,6 +254,12 @@ main{
     padding: 20px;
     gap: 15px;
     background-color: #16222A;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.spicebomb:hover{
+    transform: scale(1.1)
 }
 
 .spicebomb p{
@@ -280,6 +300,12 @@ main{
     padding: 20px;
     gap: 15px;
     background-color: #16222A;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.ch:hover{
+    transform: scale(1.1)
 }
 
 .ch p{
@@ -314,6 +340,12 @@ main{
     padding: 20px;
     gap: 15px;
     background-color: #16222A;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.y-edp:hover{
+    transform: scale(1.1) 
 }
 
 .y-edp p{
@@ -347,7 +379,13 @@ main{
     height: 60%;
     padding: 20px;
     gap: 15px;
-    background-color: #16222A;    
+    background-color: #16222A;
+    transition: transform 0.6s;
+    cursor: pointer;    
+}
+
+.hugo-boss:hover{
+    transform: scale(1.1)
 }
 
 .hugo-boss p{
@@ -369,3 +407,4 @@ main{
     width: 75%;
     border-radius: 0.5rem; 
 }
+
