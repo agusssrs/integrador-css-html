@@ -334,7 +334,7 @@ main{
     border-radius: 0.5rem;
 }
 
-.y-edp{
+#y-edp{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -350,16 +350,16 @@ main{
     cursor: pointer;
 }
 
-.y-edp:hover{
+#y-edp:hover{
     transform: scale(1.1) 
 }
 
-.y-edp p{
+#y-edp p{
     font-size: 25px;
     font-weight: 600;
 }
 
-.y-edp a{
+#y-edp a{
     border: 3px solid aqua;
     background-color: #16222A;
     color: white;
@@ -369,7 +369,7 @@ main{
     border-radius: 0.5rem;   
 }
 
-.y-edp img{
+#y-edp img{
     width: 75%;
     border-radius: 0.5rem;    
 }
@@ -414,7 +414,7 @@ main{
     border-radius: 0.5rem; 
 }
 
-.about-us{
+#about-us{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -423,7 +423,7 @@ main{
     max-width: 80%;
 }
 
-.about-us h2{
+#about-us h2{
     font-size: 45px;
 }
 
@@ -436,7 +436,7 @@ main{
     border-radius: 0.5rem;
 }
 
-/* inicio de sesion */
+/* Inicio de parte de "inicia de sesion/registrate" */
 
 #iniciosesion{
     display: flex;
@@ -496,6 +496,10 @@ main{
     font-size: 20px;
 }
 
+.registrarse{
+    text-align: center;
+}
+
 .sign-in{
     height: 30px;
     width: 200px;
@@ -529,4 +533,103 @@ main{
     border-radius: 0.5rem;
     padding: 5px 0px 25px 35px;
     color: white;
+}
+
+/* Inicio de codigo de parte "contactanos" */
+
+#contactanos-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+.contacto-title{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.redes{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+}
+
+.instagram img{
+    width: 25%;
+}
+
+.instagram p{
+    font-size: 20px;
+}
+
+.whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+}    
+
+.whatsapp img{
+    width: 25%;
+}
+
+.whatsapp p{
+    font-size: 20px;
+}
+
+
+.localizacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+}
+
+.localizacion img{
+    width: 25%;
+}
+
+.localizacion p{
+    font-size: 20px;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+}
+
+.horarios img{
+    width: 25%;
+}
+
+.horarios p{
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+}
+
+footer p{
+    font-size: 25px;
 }
