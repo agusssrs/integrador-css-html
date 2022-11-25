@@ -19,6 +19,10 @@ html {
     transition: transform 0.6s;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 /* Header */
 
  header{
@@ -39,14 +43,15 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 .navbar{
-    gap: 20%;
+    gap: 10px;
 }
 
 .navbar-list{
-    gap: 10%;
+    gap: 10px;
 }
 
 .navbar-list a{
@@ -70,58 +75,11 @@ html {
     cursor: pointer;
 }
 
-/* #cart{
-    position: absolute;
-    top: 65px;
-    right: 0;
-    padding: 50px 30px;
-    background: #16222A;
-    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
-    background: linear-gradient(to bottom, #3A6073, #16222A);
-    border-left: 3px solid aqua;
-    border-bottom: 3px solid aqua;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: calc(100vh - 65px);
-    z-index: 2;
+#menu-toggle, .menu-label{
+    display: none;
 }
 
-#cart h2{
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-}
 
-.cart-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.item-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid aqua;
-    border-radius: 0.5rem;
-}
-
-.item-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid aqua;
-    border-radius: 0.5rem;  
-}
-
-.cart-item img{
-    height: 65px;
-    width: 65px;
-    border-radius: 0.5rem;
-} */
 
 /* Main */
 
@@ -135,7 +93,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 400px;
+    gap: 300px;
 }
 
 /* Hero */
