@@ -1,0 +1,282 @@
+@media (max-width:1440px){ 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}
+
+@media (max-width:1024px){ 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}
+
+@media (max-width:768px){ 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+        width: 35%;
+        min-width: 400px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .spicebomb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 25%;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .hugo-boss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 25%;
+        height: 340px;
+        padding: 20px;
+        gap: 8px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;    
+    }
+
+    @media (max-width:425px){ 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    
+        .navbar{
+            display: none;
+        }
+
+        #hero{
+            display: flex;
+            flex-direction: column;
+            padding:10px;
+        }
+
+        .hero-text{
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .hero-text p{
+            display: none;
+        }
+
+        .hero-text h1{
+            font-size: 40px;
+            width: 100%;
+            min-width: 100px;
+            font-weight: 800;
+            color: white;
+            padding: 0%;
+            text-align: center;
+        }
+
+        #hero img{
+            display: none;
+        }
+
+        .titles{
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .perfumes-1{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .le-beau{
+            display: flex;
+            width: 60%;
+        }
+
+        .azzaro{
+            display: flex;
+            width: 60%;
+        }
+
+        .spicebomb{
+            display: flex;
+            width: 60%;
+        }
+
+        .perfumes-2{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ch{
+            display: flex;
+            width: 60%;
+        }
+
+        #y-edp{
+            display: flex;
+            width: 60%;
+        } 
+
+        .hugo-boss{
+            display: flex;
+            width: 60%;
+            height: 363px;
+        }
+
+        .contacto-title{
+            font-size: 30px;
+            text-align: center
+        }
+
+        .redes{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            width: 100%;
+        }
+
+        .instagram{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 45%;
+            gap: 10px;
+            text-align: center;
+        }
+
+        .whatsapp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 45%;
+            gap: 10px; 
+        }
+
+        .localizacion{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 45%;
+            gap: 10px; 
+        }
+
+        .horarios{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 45%;
+            gap: 10px; 
+        }
+
+        .formulario{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 60%;
+            background:#16222A;
+            border: solid 3px aqua;
+            border-radius: 0.5rem;
+            color: white;
+        }
+
+    }
+    
+    @media (max-width:320px){ 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .hero-text h1{
+            min-height: 50px;
+            text-align: left;
+        }
+
+        .hero-text{
+            display: flex;
+            padding-right: 220px;
+        }
+
+        footer p{
+            font-size: 20px;
+        }
+    }
+}
